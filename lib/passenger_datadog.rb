@@ -10,7 +10,7 @@ class PassengerDatadog
 
   class << self
     def run
-      app_base = "/srv/healthcare/"
+      app_base = "/srv/livestock/"
       apps = Dir["#{app_base}*"]
       passenger_instances = {}
 
